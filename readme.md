@@ -22,19 +22,25 @@ This Chrome extension allows you to download documents from StudyDrive.
 
     - Open Google Chrome.
     - Go to the extension settings by clicking the three-dot menu in the top-right corner of the browser, then selecting "More Tools" > "Extensions". or ![4](https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/614fd76e-28d6-49e4-88c1-e4d956e4227a)
-
     - Enable developer mode (top right).
     - Click on "Load Unpacked" and select the folder where you extracted the extension.
 ![5](https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/05b39353-2380-4f89-8e96-706e6ff91d43)
-![7](https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/bd577211-d9ff-4b37-adc8-1372fd8cd0a2)
-
-5. **Using the Extension**
-
-    - Open any page on StudyDrive where a document is located.
-    - Click on the newly added download icon to download the document.
-![8](https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/72cb1286-977a-44eb-99f9-9bd9b16cfd61)
+![6](https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/bd577211-d9ff-4b37-adc8-1372fd8cd0a2)
 
 That's it! The extension is now installed and ready to use.
+
+5. **Configuring the Extension**
+
+    The best way to use this extension is to pin it in the extension bar, so you can see, if a download is available.
+    - press on extension icon<br /> ![7](https://github.com/user-attachments/assets/f0569a75-10bf-4c2b-94d5-c8a018e48633)
+    - pin the StudyDrive Downloader Extension <br /> ![8](https://github.com/user-attachments/assets/88ab4287-f4ed-4ee6-818a-7b30c2ed38f3)
+    - now you can see the StudyDrive Downloader Extension Icon <br /> ![9](https://github.com/user-attachments/assets/4e58175f-c3cd-4aa3-8058-b7c732cb4fbf)
+
+6. **Using the Extension**
+
+    - Open any page on StudyDrive where a document is located.
+    - if the document is downloadable, the pinned StudyDrive Downloader Extension Icon will display it like this, press it! <br /> ![10](https://github.com/user-attachments/assets/3858c281-3b4e-43e0-986a-33c9d5803492)
+    - in the popup, press the download button <br /> ![11](https://github.com/user-attachments/assets/12021e7b-5726-48a4-97a9-75000a33c88e)
 
 ---
 
