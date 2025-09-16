@@ -7,8 +7,43 @@
     <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-    <!-- Schwebender Button -->
-    <button id="externalButton" class="floating-button dnbtn">Download</button>
+    <div class="container">
+        <div class="header">
+            <h2>StudyDrive Downloader</h2>
+        </div>
+        
+        <div class="content">
+            <div id="loadingState" class="state">
+                <p>Checking document...</p>
+            </div>
+            
+            <div id="noDocumentState" class="state" style="display: none;">
+                <p>No supported document found on this page.</p>
+                <small>Navigate to a StudyDrive document to be able to download it.</small>
+            </div>
+            
+            <div id="documentAvailableState" class="state" style="display: none;">
+                <div class="document-info">
+                    <p><strong>Document found:</strong></p>
+                    <p id="documentName" class="document-name"></p>
+                </div>
+                <button id="downloadButton" class="download-button">
+                    <span class="button-icon">⬇</span>
+                    <span class="button-text">Download</span>
+                </button>
+            </div>
+            
+            <div id="downloadingState" class="state" style="display: none;">
+                <p>Download in progress...</p>
+                <div class="loading-spinner"></div>
+            </div>
+            
+            <div id="errorState" class="state" style="display: none;">
+                <p class="error-text">Download error</p>
+                <button id="retryButton" class="retry-button">Try again</button>
+            </div>
+        </div>
+    </div>
     <script src="popup.js"></script>
 </body>
 </html>
