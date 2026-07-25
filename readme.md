@@ -129,8 +129,19 @@ npm run zip:all        # packaged .zip artifacts in .output/
 Load a dev build via **Load unpacked** pointing at `.output/chrome-mv3` (or the
 matching browser directory).
 
-Automated publishing to the Chrome, Firefox and Edge stores is documented in
-[`docs/publishing.md`](docs/publishing.md).
+### Releasing
+
+Packaged zips for Chrome, Firefox and Edge are published as **GitHub Releases**.
+To cut a release, bump `version` in `package.json`, then tag and push:
+
+```bash
+git tag v2.1.0
+git push origin v2.1.0
+```
+
+The [`Release` workflow](.github/workflows/release.yml) builds all three
+targets and attaches the zips to the release automatically. Users can then
+download the zip for their browser and load it manually.
 
 ---
 
