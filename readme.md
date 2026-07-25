@@ -1,122 +1,140 @@
 # StudyDrive Downloader for free without premium ⭐
 
 <div align="center">
-  <h2>📥 Installation Guide for StudyDrive Downloader Extension</h2>
-  <p><em>This Chrome extension allows you to download documents from StudyDrive.</em></p>
+  <h2>📥 StudyDrive Downloader Extension</h2>
+  <p><em>Download documents from StudyDrive — now available for Chrome, Edge and Firefox.</em></p>
+
+  <p>
+    <a href="https://github.com/okaluk/StudyDrive-Downloader-Extension/releases/latest">
+      <img src="https://img.shields.io/github/v/release/okaluk/StudyDrive-Downloader-Extension?label=latest%20release" alt="Latest release">
+    </a>
+  </p>
 </div>
 
 ---
 
-## 🚀 Installation Steps
+## ✅ Supported Browsers
 
-### 1. **Download the Extension**
+| Browser | Manifest | Status |
+|---------|----------|--------|
+| Google Chrome | MV3 | ✅ Supported |
+| Microsoft Edge | MV3 | ✅ Supported |
+| Mozilla Firefox | MV2 | ✅ Supported |
 
-<div align="center">
-  <img src="https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/a2700f84-cd81-4e47-8b18-207d25fac2cc" alt="Download Extension - Step 1" width="600">
-  <br><em>Click on the download button to get the extension files</em>
-</div>
+All builds are produced from a single codebase with [WXT](https://wxt.dev) and
+published as ready-to-install `.zip` files on the
+[**Releases**](https://github.com/okaluk/StudyDrive-Downloader-Extension/releases/latest)
+page.
+
+---
+
+## 🚀 Installation
+
+### 1. Download your browser's build
+
+Go to the [**latest release**](https://github.com/okaluk/StudyDrive-Downloader-Extension/releases/latest)
+and download the zip for your browser:
+
+- `studydrive-downloader-chrome.zip`
+- `studydrive-downloader-edge.zip`
+- `studydrive-downloader-firefox.zip`
+
+Extract the zip into a folder of your choice.
+
+<!-- SCREENSHOT: the Releases page assets list. Capture the "Assets" section of the latest release. -->
+
+### 2. Load the extension
+
+<details open>
+<summary><strong>🟢 Chrome</strong></summary>
 
 <br>
 
-<div align="center">
-  <img src="https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/527ec4d1-90b2-4b9a-ae53-3df9c48c0833" alt="Download Extension - Step 2" width="600">
-  <br><em>Save the ZIP file to your computer</em>
-</div>
-
-### 2. **Extract the ZIP Archive**
-
-Extract the downloaded ZIP archive into a folder of your choice.
+1. Open `chrome://extensions`
+2. Enable **Developer mode** (top-right toggle)
+3. Click **Load unpacked** and select the extracted folder
 
 <div align="center">
-  <img src="https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/1157cf2c-3d96-432e-b9ea-967745e21f3c" alt="Extract ZIP Archive" width="600">
-  <br><em>Right-click and extract the ZIP file to a new folder</em>
-</div>
-
-### 3. **Install the Extension**
-
-- **Open Google Chrome**
-- **Navigate to Extensions**: Click the three-dot menu in the top-right corner → "More Tools" → "Extensions"  
-  
-  <div align="center">
-    <img src="https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/614fd76e-28d6-49e4-88c1-e4d956e4227a" alt="Chrome Extensions Menu" width="400">
-    <br><em>Access Chrome Extensions through the menu</em>
-  </div>
-
-- **Enable Developer Mode** (toggle in the top right)
-- **Load the Extension**: Click "Load Unpacked" and select your extracted folder
-
-<div align="center">
-  <img src="https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/05b39353-2380-4f89-8e96-706e6ff91d43" alt="Load Unpacked Extension" width="600">
+  <img src="https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/05b39353-2380-4f89-8e96-706e6ff91d43" alt="Enable Developer Mode and Load unpacked" width="600">
   <br><em>Enable Developer Mode and click "Load unpacked"</em>
 </div>
 
+<div align="center">
+  <img src="https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/bd577211-d9ff-4b37-adc8-1372fd8cd0a2" alt="Select the extracted folder" width="600">
+  <br><em>Select the folder containing the extracted files</em>
+</div>
+
+</details>
+
+<details>
+<summary><strong>🔵 Microsoft Edge</strong></summary>
+
 <br>
 
+1. Open `edge://extensions`
+2. Enable **Developer mode** (left-hand toggle)
+3. Click **Load unpacked** and select the extracted folder
+
+<!-- SCREENSHOT: edge://extensions with Developer mode on and "Load unpacked". -->
+
+</details>
+
+<details>
+<summary><strong>🟠 Firefox</strong></summary>
+
+<br>
+
+1. Open `about:debugging#/runtime/this-firefox`
+2. Click **Load Temporary Add-on…**
+3. Select the `manifest.json` inside the extracted folder (or the zip itself)
+
+> ⚠️ **Note:** Temporary add-ons are removed when Firefox restarts. For a
+> permanent install the extension must be signed by Mozilla (AMO).
+
+<!-- SCREENSHOT: about:debugging "Load Temporary Add-on" screen. -->
+
+</details>
+
+### 3. Pin the extension (recommended)
+
+Pin the extension to your toolbar so you can see when a download is available.
+
 <div align="center">
-  <img src="https://github.com/Hamidchkms/StudyDrive-Downloader-Extension/assets/85966772/bd577211-d9ff-4b37-adc8-1372fd8cd0a2" alt="Select Extension Folder" width="600">
-  <br><em>Select the folder containing the extension files</em>
+  <img src="https://github.com/user-attachments/assets/f0569a75-10bf-4c2b-94d5-c8a018e48633" alt="Extensions icon" width="300">
+  <br><em>Click the puzzle-piece icon, then pin the extension</em>
 </div>
 
-> 🎉 **Congratulations!** The extension is now installed and ready to use.
-
-### 4. **Configuring the Extension**
-
-📌 **For the best experience, pin the extension to your toolbar** so you can easily see when downloads are available.
-
-- **Click on the Extensions icon** in Chrome's toolbar
-
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/f0569a75-10bf-4c2b-94d5-c8a018e48633" alt="Extensions Icon" width="300">
-  <br><em>Click the puzzle piece icon to access extensions</em>
-</div>
-
-- **Pin the StudyDrive Downloader Extension** by clicking the pin icon
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/88ab4287-f4ed-4ee6-818a-7b30c2ed38f3" alt="Pin Extension" width="400">
-  <br><em>Pin the extension for easy access</em>
-</div>
-
-- **Extension is now visible** in your toolbar
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/4e58175f-c3cd-4aa3-8058-b7c732cb4fbf" alt="Extension Pinned" width="400">
+  <img src="https://github.com/user-attachments/assets/4e58175f-c3cd-4aa3-8058-b7c732cb4fbf" alt="Extension pinned" width="400">
   <br><em>The StudyDrive Downloader icon is now visible in your toolbar</em>
 </div>
 
-### 5. **Using the Extension**
-
-🚀 **Ready to download documents from StudyDrive!**
-
-- **Navigate to StudyDrive** and open any page with a document
-- **Look for the extension icon** - when a document is downloadable, the icon will show an indicator
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/3858c281-3b4e-43e0-986a-33c9d5803492" alt="Extension Ready to Download" width="400">
-  <br><em>The extension icon shows when a document is available for download</em>
-</div>
-
-- **Click the extension icon** and then press the download button in the popup
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/12021e7b-5726-48a4-97a9-75000a33c88e" alt="Download Button in Popup" width="300">
-  <br><em>Click the download button to start downloading the document</em>
-</div>
+> 🎉 **Done!** The extension is installed and ready to use.
 
 ---
 
-## 📋 **Important Notes**
+## 📖 Usage
 
-- ✅ **Compatibility**: Builds for **Chrome, Edge and Firefox** from a single codebase
-- 🆓 **Free Access**: Download StudyDrive documents without premium subscription
-- 🔧 **Developer Mode**: Remember to keep Developer Mode enabled in Chrome Extensions
+1. Navigate to a **StudyDrive document page** (`https://www.studydrive.net/.../doc/...`).
+2. When a document is available, the extension icon shows a green ✓ badge.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3858c281-3b4e-43e0-986a-33c9d5803492" alt="Extension shows a document is available" width="400">
+  <br><em>The badge appears when a document can be downloaded</em>
+</div>
+
+3. Click the extension icon and press **Download** in the popup.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/12021e7b-5726-48a4-97a9-75000a33c88e" alt="Download button in the popup" width="300">
+  <br><em>Click "Download" to save the document</em>
+</div>
 
 ---
 
 ## 🛠️ For Developers
 
-This project is built with [WXT](https://wxt.dev) and produces cross-browser
-builds from one source tree (`entrypoints/`).
+Built with [WXT](https://wxt.dev); all entrypoints live under `entrypoints/`.
 
 ```bash
 npm install
@@ -124,6 +142,7 @@ npm run dev            # live-reload dev build (Chrome)
 npm run dev:firefox    # live-reload dev build (Firefox)
 npm run build:all      # production build: chrome + firefox + edge
 npm run zip:all        # packaged .zip artifacts in .output/
+npm run compile        # type check
 ```
 
 Load a dev build via **Load unpacked** pointing at `.output/chrome-mv3` (or the
@@ -131,17 +150,25 @@ matching browser directory).
 
 ### Releasing
 
-Packaged zips for Chrome, Firefox and Edge are published as **GitHub Releases**.
-To cut a release, bump `version` in `package.json`, then tag and push:
+Packaged zips are published automatically as **GitHub Releases** by the
+[`Release` workflow](.github/workflows/release.yml). To cut a release, bump
+`version` in `package.json`, then tag and push:
 
 ```bash
 git tag v2.1.0
 git push origin v2.1.0
 ```
 
-The [`Release` workflow](.github/workflows/release.yml) builds all three
-targets and attaches the zips to the release automatically. Users can then
-download the zip for their browser and load it manually.
+> The workflow creates the release and its notes. Don't pre-create the release
+> in the GitHub UI, or the notes will be duplicated.
+
+---
+
+## 📋 Notes
+
+- 🆓 **Free access**: download StudyDrive documents without a premium subscription.
+- 🔧 **Developer mode** must stay enabled for manually-loaded (unpacked) extensions.
+- 🧩 Chrome/Edge use Manifest V3; Firefox uses Manifest V2.
 
 ---
 
