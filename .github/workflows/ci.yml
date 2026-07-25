@@ -26,7 +26,7 @@ jobs:
         run: npm run zip:all
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v7
         with:
           name: extension-zips
           path: .output/*.zip
