@@ -46,6 +46,9 @@ jobs:
           cp .output/*-firefox.zip dist/studydrive-downloader-firefox.zip
           cp .output/*-edge.zip dist/studydrive-downloader-edge.zip
 
+      # This workflow OWNS release creation. Do NOT pre-create the release in
+      # the GitHub UI (or click "Generate release notes") — the notes are
+      # generated here, and a pre-existing body would be duplicated.
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
