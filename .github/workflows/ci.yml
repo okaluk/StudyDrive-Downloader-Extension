@@ -31,3 +31,5 @@ jobs:
           name: extension-zips
           path: .output/*.zip
           if-no-files-found: error
+          # .output is a dotted dir; upload-artifact skips hidden paths otherwise.
+          include-hidden-files: true
