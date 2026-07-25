@@ -1,0 +1,28 @@
+{
+  "name": "studydrive-downloader-extension",
+  "description": "An extension for downloading documents from StudyDrive via the extension menu.",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "build:edge": "wxt build -b edge",
+    "build:all": "wxt build -b chrome && wxt build -b firefox && wxt build -b edge",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "zip:edge": "wxt zip -b edge",
+    "zip:all": "wxt zip -b chrome && wxt zip -b firefox && wxt zip -b edge",
+    "compile": "tsc --noEmit",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "wxt": "^0.19.13"
+  },
+  "dependencies": {
+    "webextension-polyfill": "^0.12.0"
+  }
+}
