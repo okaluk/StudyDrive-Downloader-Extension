@@ -1,2 +1,8 @@
 .DS_Store
 .idea/
+
+# WXT / Node
+node_modules/
+.wxt/
+.output/
+*.zip

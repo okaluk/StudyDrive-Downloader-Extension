@@ -107,9 +107,41 @@ Extract the downloaded ZIP archive into a folder of your choice.
 
 ## 📋 **Important Notes**
 
-- ✅ **Compatibility**: This extension has only been tested for use in **Google Chrome**
+- ✅ **Compatibility**: Builds for **Chrome, Edge and Firefox** from a single codebase
 - 🆓 **Free Access**: Download StudyDrive documents without premium subscription
 - 🔧 **Developer Mode**: Remember to keep Developer Mode enabled in Chrome Extensions
+
+---
+
+## 🛠️ For Developers
+
+This project is built with [WXT](https://wxt.dev) and produces cross-browser
+builds from one source tree (`entrypoints/`).
+
+```bash
+npm install
+npm run dev            # live-reload dev build (Chrome)
+npm run dev:firefox    # live-reload dev build (Firefox)
+npm run build:all      # production build: chrome + firefox + edge
+npm run zip:all        # packaged .zip artifacts in .output/
+```
+
+Load a dev build via **Load unpacked** pointing at `.output/chrome-mv3` (or the
+matching browser directory).
+
+### Releasing
+
+Packaged zips for Chrome, Firefox and Edge are published as **GitHub Releases**.
+To cut a release, bump `version` in `package.json`, then tag and push:
+
+```bash
+git tag v2.1.0
+git push origin v2.1.0
+```
+
+The [`Release` workflow](.github/workflows/release.yml) builds all three
+targets and attaches the zips to the release automatically. Users can then
+download the zip for their browser and load it manually.
 
 ---
 
